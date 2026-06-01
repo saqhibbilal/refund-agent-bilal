@@ -1,0 +1,431 @@
+{
+  "orders": [
+    {
+      "order_id": "VG-10001",
+      "customer_id": "cust-001",
+      "items": [
+        {
+          "sku": "VG-BUDS-PRO",
+          "name": "Worknoon Buds Pro",
+          "category": "audio",
+          "price_cents": 12999,
+          "final_sale": false,
+          "serial_number": "SN-BUDS-88421",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 12999,
+      "status": "delivered",
+      "purchase_date": "2026-05-20",
+      "delivered_at": "2026-05-23",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10002",
+      "customer_id": "cust-002",
+      "items": [
+        {
+          "sku": "VG-LAP-AIR15",
+          "name": "WorkBook Air 15",
+          "category": "computing",
+          "price_cents": 89900,
+          "final_sale": false,
+          "serial_number": "SN-LAP-44210",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 89900,
+      "status": "delivered",
+      "purchase_date": "2026-05-01",
+      "delivered_at": "2026-05-08",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10003",
+      "customer_id": "cust-003",
+      "items": [
+        {
+          "sku": "VG-GPU-OPENBOX",
+          "name": "Worknoon RTX Open-Box GPU",
+          "category": "clearance",
+          "price_cents": 54900,
+          "final_sale": true,
+          "serial_number": "SN-GPU-99102",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 54900,
+      "status": "delivered",
+      "purchase_date": "2026-05-18",
+      "delivered_at": "2026-05-22",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10004",
+      "customer_id": "cust-004",
+      "items": [
+        {
+          "sku": "VG-WAR-2YR",
+          "name": "Worknoon Extended Warranty 2yr",
+          "category": "digital",
+          "price_cents": 7900,
+          "final_sale": false,
+          "serial_number": null,
+          "warranty_activated": true
+        }
+      ],
+      "total_cents": 7900,
+      "status": "delivered",
+      "purchase_date": "2026-05-10",
+      "delivered_at": "2026-05-10",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10005",
+      "customer_id": "cust-005",
+      "items": [
+        {
+          "sku": "VG-CAM-2K",
+          "name": "Worknoon Wi-Fi Camera 2K",
+          "category": "smart_home",
+          "price_cents": 8999,
+          "final_sale": false,
+          "serial_number": "SN-CAM-33001",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 8999,
+      "status": "delivered",
+      "purchase_date": "2026-05-24",
+      "delivered_at": "2026-05-27",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10006",
+      "customer_id": "cust-006",
+      "items": [
+        {
+          "sku": "VG-DOCK-USBC",
+          "name": "Worknoon USB-C Dock",
+          "category": "accessories",
+          "price_cents": 8999,
+          "final_sale": false,
+          "serial_number": "SN-DOCK-11203",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 8999,
+      "status": "delivered",
+      "purchase_date": "2026-04-01",
+      "delivered_at": "2026-04-05",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10007",
+      "customer_id": "cust-007",
+      "items": [
+        {
+          "sku": "VG-HP-STUDIO",
+          "name": "Worknoon Studio Headphones",
+          "category": "audio",
+          "price_cents": 24999,
+          "final_sale": false,
+          "serial_number": "SN-HP-77881",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 24999,
+      "status": "delivered",
+      "purchase_date": "2026-05-01",
+      "delivered_at": "2026-05-05",
+      "refund_status": "full"
+    },
+    {
+      "order_id": "VG-10008",
+      "customer_id": "cust-008",
+      "items": [
+        {
+          "sku": "VG-BUDS-PRO",
+          "name": "Worknoon Buds Pro",
+          "category": "audio",
+          "price_cents": 12999,
+          "final_sale": false,
+          "serial_number": "SN-BUDS-55102",
+          "warranty_activated": false
+        },
+        {
+          "sku": "VG-GPU-OPENBOX",
+          "name": "Worknoon RTX Open-Box GPU",
+          "category": "clearance",
+          "price_cents": 54900,
+          "final_sale": true,
+          "serial_number": "SN-GPU-55103",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 67899,
+      "status": "delivered",
+      "purchase_date": "2026-05-20",
+      "delivered_at": "2026-05-24",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10009",
+      "customer_id": "cust-009",
+      "items": [
+        {
+          "sku": "VG-CHG-65W",
+          "name": "Worknoon 65W GaN Charger",
+          "category": "accessories",
+          "price_cents": 3999,
+          "final_sale": false,
+          "serial_number": null,
+          "warranty_activated": false
+        },
+        {
+          "sku": "VG-HDMI-2M",
+          "name": "Worknoon HDMI 2m Cable",
+          "category": "accessories",
+          "price_cents": 1499,
+          "final_sale": false,
+          "serial_number": null,
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 5498,
+      "status": "delivered",
+      "purchase_date": "2025-05-12",
+      "delivered_at": "2025-05-18",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10010",
+      "customer_id": "cust-010",
+      "items": [
+        {
+          "sku": "VG-MON-27",
+          "name": "Worknoon 27in Monitor",
+          "category": "computing",
+          "price_cents": 32999,
+          "final_sale": false,
+          "serial_number": "SN-MON-22001",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 32999,
+      "status": "shipped",
+      "purchase_date": "2025-05-20",
+      "delivered_at": null,
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10011",
+      "customer_id": "cust-011",
+      "items": [
+        {
+          "sku": "VG-KB-MECH",
+          "name": "Worknoon Mechanical Keyboard",
+          "category": "accessories",
+          "price_cents": 11999,
+          "final_sale": false,
+          "serial_number": "SN-KB-44002",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 11999,
+      "status": "delivered",
+      "purchase_date": "2025-04-22",
+      "delivered_at": "2025-04-28",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10012",
+      "customer_id": "cust-012",
+      "items": [
+        {
+          "sku": "VG-LAP-AIR15",
+          "name": "WorkBook Air 15",
+          "category": "computing",
+          "price_cents": 89900,
+          "final_sale": false,
+          "serial_number": "SN-LAP-99001",
+          "warranty_activated": false
+        },
+        {
+          "sku": "VG-DOCK-USBC",
+          "name": "Worknoon USB-C Dock",
+          "category": "accessories",
+          "price_cents": 8999,
+          "final_sale": false,
+          "serial_number": "SN-DOCK-99002",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 98899,
+      "status": "delivered",
+      "purchase_date": "2025-05-05",
+      "delivered_at": "2025-05-12",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10013",
+      "customer_id": "cust-013",
+      "items": [
+        {
+          "sku": "VG-BUDS-PRO",
+          "name": "Worknoon Buds Pro",
+          "category": "audio",
+          "price_cents": 12999,
+          "final_sale": false,
+          "serial_number": "SN-BUDS-66101",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 12999,
+      "status": "delivered",
+      "purchase_date": "2025-05-01",
+      "delivered_at": "2025-05-06",
+      "refund_status": "partial"
+    },
+    {
+      "order_id": "VG-10014",
+      "customer_id": "cust-014",
+      "items": [
+        {
+          "sku": "VG-CAM-2K",
+          "name": "Worknoon Wi-Fi Camera 2K",
+          "category": "smart_home",
+          "price_cents": 8999,
+          "final_sale": false,
+          "serial_number": "SN-CAM-88001",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 8999,
+      "status": "cancelled",
+      "purchase_date": "2025-05-10",
+      "delivered_at": null,
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10015",
+      "customer_id": "cust-015",
+      "items": [
+        {
+          "sku": "VG-HP-STUDIO",
+          "name": "Worknoon Studio Headphones",
+          "category": "audio",
+          "price_cents": 24999,
+          "final_sale": false,
+          "serial_number": "SN-HP-99015",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 24999,
+      "status": "delivered",
+      "purchase_date": "2025-05-18",
+      "delivered_at": "2025-05-22",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10016",
+      "customer_id": "cust-001",
+      "items": [
+        {
+          "sku": "VG-MOUSE-PRO",
+          "name": "Worknoon Pro Mouse",
+          "category": "accessories",
+          "price_cents": 7999,
+          "final_sale": false,
+          "serial_number": "SN-MS-10016",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 7999,
+      "status": "delivered",
+      "purchase_date": "2025-05-15",
+      "delivered_at": "2025-05-20",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10017",
+      "customer_id": "cust-003",
+      "items": [
+        {
+          "sku": "VG-SPK-MINI",
+          "name": "Worknoon Mini Speaker",
+          "category": "audio",
+          "price_cents": 5999,
+          "final_sale": false,
+          "serial_number": "SN-SPK-17001",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 5999,
+      "status": "delivered",
+      "purchase_date": "2025-05-08",
+      "delivered_at": "2025-05-14",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10018",
+      "customer_id": "cust-004",
+      "items": [
+        {
+          "sku": "VG-TAB-10",
+          "name": "Worknoon Tab 10",
+          "category": "computing",
+          "price_cents": 44900,
+          "final_sale": false,
+          "serial_number": "SN-TAB-18001",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 44900,
+      "status": "delivered",
+      "purchase_date": "2025-04-01",
+      "delivered_at": "2025-04-08",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10019",
+      "customer_id": "cust-006",
+      "items": [
+        {
+          "sku": "VG-ROUTER-W6",
+          "name": "Worknoon Wi-Fi 6 Router",
+          "category": "smart_home",
+          "price_cents": 17999,
+          "final_sale": false,
+          "serial_number": "SN-RT-19001",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 17999,
+      "status": "delivered",
+      "purchase_date": "2025-05-02",
+      "delivered_at": "2025-05-09",
+      "refund_status": "none"
+    },
+    {
+      "order_id": "VG-10020",
+      "customer_id": "cust-002",
+      "items": [
+        {
+          "sku": "VG-BUDS-PRO",
+          "name": "Worknoon Buds Pro",
+          "category": "audio",
+          "price_cents": 12999,
+          "final_sale": false,
+          "serial_number": "SN-BUDS-20001",
+          "warranty_activated": false
+        }
+      ],
+      "total_cents": 12999,
+      "status": "delivered",
+      "purchase_date": "2025-05-22",
+      "delivered_at": "2025-05-26",
+      "refund_status": "none"
+    }
+  ]
+}
