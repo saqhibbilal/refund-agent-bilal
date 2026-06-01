@@ -23,19 +23,19 @@ export function ChatInput({ onSend, disabled }: ChatInputProps) {
       onSubmit={handleSubmit}
       className="shrink-0 border-t border-worknoon-ice/15 bg-worknoon-dark/95 p-4"
     >
-      <div className="flex gap-2">
+      <div className="flex flex-col gap-2 sm:flex-row">
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Describe your refund request…"
           disabled={disabled}
-          className="flex-1 rounded-lg border border-worknoon-ice/20 bg-worknoon-panel px-4 py-2.5 text-chat text-worknoon-ice outline-none placeholder:text-worknoon-ice/35 focus:border-worknoon-ice/45 focus:ring-1 focus:ring-worknoon-ice/25 disabled:opacity-50"
+          className="min-w-0 flex-1 rounded-lg border border-worknoon-ice/20 bg-worknoon-panel px-4 py-2.5 text-chat text-worknoon-ice outline-none placeholder:text-worknoon-ice/35 focus:border-worknoon-ice/45 focus:ring-1 focus:ring-worknoon-ice/25 disabled:opacity-50"
         />
         <button
           type="submit"
           disabled={disabled || !input.trim()}
-          className="rounded-lg bg-worknoon-ice px-5 py-2.5 text-sm font-semibold text-worknoon-dark transition hover:bg-worknoon-ice/90 disabled:cursor-not-allowed disabled:opacity-40"
+          className="self-start rounded-lg bg-worknoon-ice px-5 py-2.5 text-sm font-semibold text-worknoon-dark transition hover:bg-worknoon-ice/90 disabled:cursor-not-allowed disabled:opacity-40 sm:self-auto sm:w-auto"
         >
           Send
         </button>

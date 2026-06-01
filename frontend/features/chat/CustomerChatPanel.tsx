@@ -39,23 +39,29 @@ export function CustomerChatPanel({
 
   return (
     <div className="flex h-full flex-col bg-worknoon-dark/95">
-      <div className="flex shrink-0 items-center justify-between gap-3 border-b border-worknoon-ice/15 px-4 py-3">
-        <div>
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-worknoon-ice/55">
+      <div className="flex shrink-0 flex-wrap items-center justify-between gap-3 border-b border-worknoon-ice/15 px-4 py-3">
+        <div className="min-w-0">
+          <h2 className="text-sm font-semibold uppercase tracking-wider text-[#D6EFFF]" style={{ fontSize: "1.1em" }}>
             Customer Chat
           </h2>
+     
           <p className="mt-1 text-xs text-worknoon-ice/40">
             Guided refund support with ready-to-try demo cases
           </p>
         </div>
-        <button
-          type="button"
-          onClick={resetConversation}
-          disabled={controlsDisabled}
-          className="rounded-full border border-worknoon-ice/15 px-3 py-1.5 text-xs font-semibold text-worknoon-ice/75 transition hover:border-worknoon-ice/35 hover:bg-worknoon-ice/[0.06] disabled:cursor-not-allowed disabled:opacity-40"
-        >
-          New conversation
-        </button>
+        <div className="flex min-w-0 flex-wrap items-center justify-end gap-3">
+          <span className="hidden text-right text-xs text-worknoon-ice/40 sm:inline">
+            For more guided prompts, start a new conversation.
+          </span>
+          <button
+            type="button"
+            onClick={resetConversation}
+            disabled={controlsDisabled}
+            className="rounded-full border border-worknoon-ice/15 px-3 py-1.5 text-xs font-semibold text-worknoon-ice/75 transition hover:border-worknoon-ice/35 hover:bg-worknoon-ice/[0.06] disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            New conversation
+          </button>
+        </div>
       </div>
 
       {error && (

@@ -44,7 +44,7 @@ export function TraceEventRow({ event }: TraceEventRowProps) {
     : null;
 
   return (
-    <div className={`rounded-lg border px-3 py-2.5 ${eventStyles(event.type)}`}>
+    <div className={`overflow-hidden rounded-lg border px-3 py-2.5 ${eventStyles(event.type)}`}>
       <div className="flex items-start justify-between gap-2">
         <div className="flex flex-wrap items-center gap-2">
           <span className="font-mono text-xs font-semibold uppercase text-worknoon-ice/65">
@@ -68,19 +68,19 @@ export function TraceEventRow({ event }: TraceEventRowProps) {
 
       {event.type === "tool_start" && (
         <p className="mt-1.5 text-sm text-worknoon-ice/75">
-          Tool: <code className="font-mono text-xs text-worknoon-ice/90">{String(event.payload.tool)}</code>
+          Tool: <code className="break-words font-mono text-xs text-worknoon-ice/90">{String(event.payload.tool)}</code>
         </p>
       )}
 
       {event.type === "tool_end" && (
         <p className="mt-1.5 text-sm text-worknoon-ice/75">
           Completed:{" "}
-          <code className="font-mono text-xs text-worknoon-ice/90">{String(event.payload.tool)}</code>
+          <code className="break-words font-mono text-xs text-worknoon-ice/90">{String(event.payload.tool)}</code>
         </p>
       )}
 
       {event.type === "injection_warning" && (
-        <p className="mt-1.5 text-sm text-worknoon-ice/90">
+        <p className="mt-1.5 break-words text-sm text-worknoon-ice/90">
           {String(event.payload.message ?? "Injection pattern detected")}
         </p>
       )}

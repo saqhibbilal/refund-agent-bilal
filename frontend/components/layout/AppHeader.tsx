@@ -31,15 +31,16 @@ export function AppHeader({ health, sessionId }: AppHeaderProps) {
 
   return (
     <header className="flex shrink-0 flex-wrap items-center justify-between gap-4 border-b border-worknoon-ice/15 bg-worknoon-dark/95 px-5 py-4 shadow-[0_1px_30px_rgba(214,239,255,0.08)] lg:px-6">
-      <div>
+      <div className="min-w-0">
         <h1 className="font-display text-xl font-semibold uppercase tracking-wide text-worknoon-ice lg:text-2xl">
-          Worknoon Refund Agent
+          <span style={{ fontSize: "1.25em" }}>Worknoon Refund Agent</span>
+     
         </h1>
         <p className="mt-0.5 text-sm text-worknoon-ice/55">
           Agent reasoning · Customer chat
         </p>
       </div>
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="flex min-w-0 flex-wrap items-center gap-3">
         <AppNav />
         {health !== undefined && (
           <span

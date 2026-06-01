@@ -17,7 +17,7 @@ export function TraceTimeline({ events, isLoading }: TraceTimelineProps) {
   }, [events, isLoading]);
 
   return (
-    <div className="scroll-area flex-1 space-y-2 overflow-y-auto px-4 py-4">
+    <div className="scroll-area min-h-0 flex-1 space-y-2 overflow-y-auto px-4 py-4">
       {events.length === 0 && !isLoading && (
         <p className="text-center text-sm text-worknoon-ice/45">
           Agent reasoning will appear here when you send a message.

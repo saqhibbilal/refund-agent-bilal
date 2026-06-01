@@ -29,7 +29,7 @@ const markdownComponents = {
 
 export function MessageContent({ content, isStreaming }: MessageContentProps) {
   return (
-    <div className="message-markdown text-chat leading-relaxed">
+    <div className="message-markdown break-words text-chat leading-relaxed">
       <ReactMarkdown components={markdownComponents}>{content}</ReactMarkdown>
       {isStreaming && (
         <span className="ml-0.5 inline-block h-4 w-1 animate-pulse bg-worknoon-ice/45 align-middle" />

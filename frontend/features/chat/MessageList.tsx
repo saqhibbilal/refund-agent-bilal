@@ -17,14 +17,14 @@ export function MessageList({ messages }: MessageListProps) {
   }, [messages]);
 
   return (
-    <div className="scroll-area flex-1 space-y-4 overflow-y-auto px-4 py-4">
+    <div className="scroll-area min-h-0 flex-1 space-y-4 overflow-y-auto px-4 py-4">
       {messages.map((message) => (
         <div
           key={message.id}
           className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}
         >
           <div
-            className={`max-w-[85%] rounded-xl px-4 py-3 text-chat leading-relaxed ${
+            className={`max-w-[92%] overflow-hidden rounded-xl px-4 py-3 text-chat leading-relaxed sm:max-w-[85%] ${
               message.role === "user"
                 ? "bg-worknoon-ice text-worknoon-dark shadow-[0_10px_30px_rgba(214,239,255,0.12)]"
                 : "border border-worknoon-ice/15 bg-worknoon-panel text-worknoon-ice"
@@ -39,7 +39,7 @@ export function MessageList({ messages }: MessageListProps) {
                 />
               </>
             ) : (
-              <p className="whitespace-pre-wrap">
+              <p className="whitespace-pre-wrap break-words">
                 {message.content}
                 {message.isStreaming && (
                   <span className="ml-1 inline-block h-4 w-1 animate-pulse bg-worknoon-dark/40" />
